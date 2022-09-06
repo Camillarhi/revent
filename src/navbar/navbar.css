@@ -1,8 +1,8 @@
-.about {
+.navbar .about {
     color: #FCE82F;
 }
 
- a {
+ .navbar a {
     float: right;
     text-align: center;
     padding: 14px 16px;

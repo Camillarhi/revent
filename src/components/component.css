@@ -1,0 +1,61 @@
+/* Header css start here */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imageContainer {
+    position: relative;
+}
+
+.logoFloat {
+    position: absolute;
+    top: -10px;
+    right: -15px;
+    height: 20px;
+    aspect-ratio: 1/1;
+}
+
+.reventDigital {
+    text-align: right;
+    color: #FCE82F;
+    font-weight: 900;
+}
+
+header ul {
+    display: flex;
+    gap: 10px;
+}
+
+a:is(:active, :focus, :hover) {
+    color: var(--brandColor);
+
+}
+
+/* Header Css Ends Here */
+
+/* Button css  */
+button {
+    background: var(--brandColor);
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 30px;
+    color: #000000;
+    padding:10px 0;
+}
+/* Sections Css Start */
+.section {
+    height: 80vh;
+    gap: 15px;
+    margin:30px 0 0 0;
+    justify-content: space-between;
+}
+
+.section section {
+    flex: 1;
+}
+
+/* Sections Css ends Here */

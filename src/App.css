@@ -1,3 +1,225 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap');
+
 * {
-  background-color: #000000;
+  padding: 0;
+  border: none;
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+  --brandColor: #FCE82F;
+}
+
+.App {
+  background-color: #000;
+  padding: 50px;
+}
+
+.links {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.flx-direction-row {
+  flex-direction: row !important;
+}
+
+.flx-direction-col {
+  flex-direction: column !important;
+}
+
+.heroSection {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heroSection h1 {
+  font-size: 2rem;
+}
+
+.heroSection p {
+  margin: 15px 0;
+}
+
+.isHalfWidth {
+  width: 50%;
+}
+
+.isCenteredCenter {
+  align-items: center;
+}
+
+.isCentered {
+  justify-content: center;
+}
+
+.isFlexed {
+  display: flex;
+}
+
+.socialLogo {
+  background: var(--brandColor);
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.socialLogo img {
+  object-fit: fill;
+}
+
+.secondHeroContainer {
+  position: relative;
+}
+
+.secondHeroContainer img {
+  position: absolute;
+}
+
+.aboutUsContainer {
+  height: max-content;
+  width: 100%;
+  position: relative;
+
+}
+
+.aboutUsImageSection img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.aboutTextPart button {
+  margin: 10px auto 0 0
+}
+
+.line {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 5px solid #FCE82F;
+  position: relative;
+}
+
+
+.contactSection {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contactSection img {
+  width: 20%;
+  height: 20%;
+}
+
+.portfolio-menu .all {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.portfolio-menu a {
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF !important;
+}
+
+.portfolio-menu {
+  text-align: center;
+  margin: 20px;
+}
+
+a:is(:active, :focus, :hover) {
+  background: #FFFFFF;
+  border-radius: 10px;
+  color: #000000 !important;
+}
+
+
+.form-style-1 {
+  margin: 10px auto;
+  max-width: 400px;
+  padding: 20px 12px 10px 20px;
+}
+
+.form-style-1 li {
+  padding: 0;
+  display: block;
+  list-style: none;
+  margin: 10px;
+}
+
+textarea {
+  box-sizing: border-box;
+  border: 1px solid #BEBEBE;
+  padding: 7px;
+  margin: 0px;
+  outline: none;
+}
+
+.form-style-1 .field-divided {
+  /* width: 49%; */
+  margin: 5px;
+}
+
+.form-style-1 .field-long {
+  width: 100%;
+}
+
+.form-style-1 .field-select {
+  width: 100%;
+}
+
+.form-style-1 .field-textarea {
+  height: 100px;
+}
+
+.form-style-1 input[type=submit],
+.form-style-1 input[type=button] {
+  background: #4B99AD;
+  padding: 8px 15px 8px 15px;
+  border: none;
+  color: #fff;
+}
+
+.form-style-1 input[type=submit]:hover,
+.form-style-1 input[type=button]:hover {
+  background: #4691A4;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.form-style-1 .required {
+  color: red;
+}
+
+
+@media only screen and (min-width: 700px) {
+  .aboutTextPart {
+    gap: 20px;
+    font-size: 1.5rem
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .secondHeroContainer img {
+    width: 80%;
+  }
 }

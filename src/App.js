@@ -1,16 +1,20 @@
-import About from './about/about';
 import './App.css';
-import Header from './header/header';
-import Navbar from './navbar/navbar';
-import Resume from './resume/resume';
+import { Header } from './components';
+import About from './components/about';
+import Contact from './components/contact';
+import Landinpage from './components/landinpage';
+import Portfolio from './components/portfolio';
+import Resume from './components/resume';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <Header />
+      <Landinpage />
       <About />
       <Resume />
+      <Portfolio />
+      <Contact />
     </div>
   );
 }

@@ -4,7 +4,7 @@ import { Section } from './Section'
 
 export default function Resume() {
     return (
-        <main id='Resume' style={{marginTop:'80px'}}>
+        <main id='Experience' style={{marginTop:'80px'}}>
             <div className='flx-direction-col aboutUsContainer isFlexed isCenteredCenter isCentered'>
                 <h1>Resume</h1>
                 <img src={Line} alt='line' />

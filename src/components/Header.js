@@ -1,11 +1,10 @@
 import React from 'react'
-import styles from './component.css'
-import Logo from '../image/Vector.png'
-import R from '../image/R.png'
 import E from '../image/e.png'
-import V from '../image/v.png'
 import N from '../image/n.png'
+import R from '../image/R.png'
 import T from '../image/t.png'
+import V from '../image/v.png'
+import Logo from '../image/Vector.png'
 const links = ["About Us", "Portfolio", "Experience", "Contact"]
 const logoText = [R, E, V, E, N, T]
 export const Header = () => {

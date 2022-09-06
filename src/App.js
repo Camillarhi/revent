@@ -2,6 +2,7 @@ import About from './about/about';
 import './App.css';
 import Header from './header/header';
 import Navbar from './navbar/navbar';
+import Resume from './resume/resume';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Header />
       <About />
+      <Resume />
     </div>
   );
 }

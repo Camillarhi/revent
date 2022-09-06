@@ -1,8 +1,8 @@
 import React from 'react';
 import './component.css';
 
-export function Button({ children }) {
+export function Button({ children, className }) {
     return (
-        <button className='isHalfWidth'>{children}</button>
+        <button className={`${className} isHalfWidth`}>{children}</button>
     )
 }

@@ -6,7 +6,7 @@ import { Section } from './Section'
 
 export default function Portfolio() {
     return (
-        <main id='Portfolio'>
+        <main id='Portfolio' style={{marginTop:'80px'}}>
             <div className='flx-direction-col aboutUsContainer isFlexed isCenteredCenter isCentered'>
                 <h1>Portfolio</h1>
                 <img src={Line} alt='line' />

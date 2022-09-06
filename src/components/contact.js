@@ -1,15 +1,14 @@
-import React from 'react'
-import Line from '../image/line.png'
-import { Section } from './Section'
-import TopMail from '../image/topemail.png';
+import React from 'react';
 import BottomMail from '../image/bottomemail.png';
 import CallLogo from '../image/call.png';
+import Line from '../image/line.png';
+import TopMail from '../image/topemail.png';
 import Form from './form';
-import { Button } from './Button';
+import { Section } from './Section';
 
 export default function Contact() {
     return (
-        <main id='Contact'>
+        <main id='Contact' style={{marginTop:'80px'}}>
             <div className='flx-direction-col aboutUsContainer isFlexed isCenteredCenter isCentered'>
                 <h1>Get in Touch</h1>
                 <img src={Line} alt='line' />
@@ -33,7 +32,6 @@ export default function Contact() {
                 </section>
             </Section>
             <Form/>
-            <Button>Send message</Button>
         </main>
     )
 }

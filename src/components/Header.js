@@ -14,7 +14,7 @@ export const Header = () => {
                 <img className='logoFloat' src={Logo} alt='logo' />
                 <div className='reventContainer'>
                     {logoText.map((revent, index) => ( // index as key is not recomemded
-                        <img className='reventLogo' src={revent} key={index} />
+                        <img className='reventLogo' src={revent} key={index} alt={index}/>
                     ))}
                 </div>
                 <p className='reventDigital'>DIGITAL</p>

@@ -234,6 +234,10 @@ textarea {
     align-items: center;
   }
 
+  .portfolio img{
+    max-width: 80%;
+  }
+
   button {
     border-radius: 10px;
     font-style: normal;

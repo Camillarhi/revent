@@ -39,9 +39,9 @@
   justify-content: center;
 }
 
-.heroSection h1 {
+/* .heroSection h1 {
   font-size: 2rem;
-}
+} */
 
 .heroSection p {
   margin: 15px 0;
@@ -50,7 +50,8 @@
 .isHalfWidth {
   width: 50%;
 }
-.isHalfSize{
+
+.isHalfSize {
   width: 30%;
 }
 
@@ -124,14 +125,6 @@
   height: 20%;
 }
 
-.portfolio-menu .all {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-}
-
 .portfolio-menu a {
   text-align: center;
   padding: 14px 16px;
@@ -149,7 +142,7 @@
   margin: 20px;
 }
 
-a:is(:active, :focus, :hover) {
+.portfolio-menu a:is(:active, :focus, :hover) {
   background: #FFFFFF;
   border-radius: 10px;
   color: #000000 !important;
@@ -162,7 +155,7 @@ a:is(:active, :focus, :hover) {
   padding: 20px 12px 10px 20px;
 }
 
-input{
+input {
   height: 40px;
   border-radius: 5px;
   width: 100%;
@@ -218,10 +211,50 @@ textarea {
     gap: 20px;
     font-size: 1.5rem
   }
+
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
 }
 
 @media only screen and (max-width: 700px) {
   .secondHeroContainer img {
     width: 80%;
+  }
+
+  .portfolio-menu a {
+    display: block;
+  }
+
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  button {
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 30px;
+    color: #000000;
+    padding: 10px 0;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 1140px) and (min-width: 700px) {
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }

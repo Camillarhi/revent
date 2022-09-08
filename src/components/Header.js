@@ -20,7 +20,7 @@ export const Header = () => {
                 <p className='reventDigital'>DIGITAL</p>
                 {/* reventContainer ends here */}
             </div>
-            <ul>
+            <ul className='mainNav'>
                 {links.map(link => (
                     <li key={link}>
                         <a className='links' href={`#${link}`}>

@@ -6,15 +6,14 @@ import { Section } from './Section'
 
 export default function Portfolio() {
     return (
-        <main id='Portfolio' style={{marginTop:'80px'}}>
+        <main id='Portfolio' style={{ marginTop: '80px' }}>
             <div className='flx-direction-col aboutUsContainer isFlexed isCenteredCenter isCentered'>
                 <h1>Portfolio</h1>
                 <img src={Line} alt='line' />
             </div>
             <Portfoliomenu />
-            {/* aboutUsContainer Ends Here */}
             <Section style={{ gap: '20px', height: '100%' }}>
-                <section className='aboutUsImageSection isFlexed isCenteredCenter'>
+                <section className='isFlexed isCenteredCenter portfolio'>
                     <img src={PortfolioImage} alt={PortfolioImage} />
                     <img src={PortfolioImage} alt={PortfolioImage} />
                     <img src={PortfolioImage} alt={PortfolioImage} />

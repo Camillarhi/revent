@@ -15,7 +15,7 @@ export default function Contact() {
             </div>
             {/* aboutUsContainer Ends Here */}
             <Section style={{ gap: '20px', height: '100%' }}>
-                <section className='aboutUsImageSection isFlexed isCenteredCenter contactSection isCentered'>
+                <section className='isFlexed isCenteredCenter contactSection isCentered'>
                     <div>
                         <img src={CallLogo} alt={CallLogo} />
                         <h3 style={{ marginRight: 'auto' }}>Call Us</h3>

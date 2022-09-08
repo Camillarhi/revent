@@ -9,7 +9,7 @@ export default function Resume() {
                 <h1>Resume</h1>
                 <img src={Line} alt='line' />
                 <Section style={{ gap: '20px', height: '100%', width: '100%', padding: '0 80px' }}>
-                    <section className='aboutUsImageSection isFlexed isCenteredCenter' style={{ flex: '2', margin: '0 auto' }}>
+                    <section className='isFlexed isCenteredCenter' style={{ flex: '2', margin: '0 auto' }}>
                         <div className='line'></div>
                         <div>
                             <h4>2017</h4>
@@ -20,7 +20,7 @@ export default function Resume() {
                             <p>Principles of Design</p>
                         </div>
                     </section>
-                    <section className='aboutUsImageSection isFlexed isCenteredCenter' style={{ margin: '0 auto' }}>
+                    <section className='isFlexed isCenteredCenter' style={{ margin: '0 auto' }}>
                         <div className='line'></div>
                         <div>
                             <h4>2019</h4>

@@ -204,10 +204,22 @@ textarea {
 .form-style-1 .required {
   color: red;
 }
+
 .about {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.contact-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.message img {
+  width: 40px;
+  height: 18.21px;
 }
 
 @media only screen and (min-width: 700px) {
@@ -217,6 +229,11 @@ textarea {
   }
 
   header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .about {
     flex-direction: row;
     justify-content: space-between;
   }
@@ -243,25 +260,32 @@ textarea {
   }
 
   button {
-    border-radius: 10px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1rem;
-    line-height: 30px;
-    color: #000000;
-    padding: 10px 0;
+    min-width: 150px;
   }
 
-  header {
+  header,
+  .mainNav {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
+  .mainNav {
+    margin-top: 15px;
+  }
+
   .about {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: center;
+  }
+
+  .contactSection {
+    justify-content: space-between;
+  }
+
+  .contactSection p {
+    /* background-color: blue; */
   }
 }
 
@@ -270,5 +294,9 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .secondHeroContainer img {
+    width: 80%;
   }
 }

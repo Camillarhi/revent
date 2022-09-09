@@ -133,7 +133,7 @@
 }
 
 .portfolio-menu {
-  justify-content: center;
+  justify-content: space-around;
   margin: 20px;
   display: flex;
 }

@@ -218,12 +218,57 @@ textarea {
   height: 18.21px;
 }
 
-.portfolio{
+.portfolio {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.bars {
+  display: none;
+  margin: auto 0;
+  cursor: pointer;
+}
+
+.bars div {
+  width: 35px;
+  height: 3px;
+  background-color: var(--brandColor);
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+  opacity: 0;
+}
+
+.open .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -8px);
+  transform: rotate(45deg) translate(-6px, -8px);
+}
+
+.open .mobileMainNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.mobileMainNav {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  height: calc(100vh - 50px);
+  margin-top: 80px;
+  width: 100%;
+}
+
+/* media queries */
 @media only screen and (min-width: 700px) {
   .aboutTextPart {
     gap: 20px;
@@ -265,15 +310,15 @@ textarea {
     min-width: 150px;
   }
 
-  header,
-  .mainNav {
+  /* header {
     display: flex;
     flex-direction: column;
-    align-items: center;
-  }
+    justify-content: space-between;
+    flex-wrap: wrap;
+  } */
 
   .mainNav {
-    margin-top: 15px;
+    display: none;
   }
 
   .about {
@@ -284,6 +329,10 @@ textarea {
 
   .contactSection {
     justify-content: space-between;
+  }
+
+  .bars{
+    display: block;
   }
 
 }

@@ -1,8 +1,7 @@
 import React from 'react'
-import Portfoliomenu from './portfoliomenu'
-import PortfolioImage from '../image/portfolio.png'
 import Line from '../image/line.png'
-import { Section } from './Section'
+import PortfolioImage from '../image/portfolio.png'
+import Portfoliomenu from './portfoliomenu'
 
 export default function Portfolio() {
     return (

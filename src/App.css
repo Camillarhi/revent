@@ -133,7 +133,7 @@
 }
 
 .portfolio-menu {
-  justify-content: space-around;
+  justify-content: center;
   margin: 20px;
   display: flex;
 }
@@ -247,9 +247,9 @@ textarea {
     width: 80%;
   }
 
-  /* .portfolio-menu a {
-    display: block;
-  } */
+  .portfolio-menu a {
+    padding: 10px 10px;
+  }
 
   .portfolio {
     display: flex;

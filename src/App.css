@@ -158,15 +158,6 @@
   height: 20%;
 }
 
-.portfolio-menu a {
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  color: #FFFFFF !important;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-}
 
 .portfolio-menu {
   justify-content: center;
@@ -240,18 +231,6 @@ textarea {
   left: 863px;
   top: 2694.64px;
   border-radius: 10px;
-}
-
-.contact-image h3 {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
-}
-
-.contact-image p {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
 }
 
 .portfolio {

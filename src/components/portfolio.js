@@ -12,13 +12,13 @@ export default function Portfolio() {
                 <img src={Line} alt='line' />
             </div>
             <Portfoliomenu />
-            <Section style={{ gap: '20px', height: '100%' }}>
-                <section className='isFlexed isCenteredCenter portfolio'>
+            {/* <Section style={{ gap: '20px', height: '100%' }}> */}
+                <section className='portfolio'>
                     <img src={PortfolioImage} alt={PortfolioImage} />
                     <img src={PortfolioImage} alt={PortfolioImage} />
                     <img src={PortfolioImage} alt={PortfolioImage} />
                 </section>
-            </Section>
+            {/* </Section> */}
         </main>
     )
 }

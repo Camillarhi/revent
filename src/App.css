@@ -23,7 +23,8 @@
 
 .links {
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 20px;
+  line-height: 24px;
 }
 
 .flx-direction-row {
@@ -40,11 +41,17 @@
 }
 
 /* .heroSection h1 {
-  font-size: 2rem;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 44px;
+  margin-top: 5px;
 } */
 
 .heroSection p {
   margin: 15px 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
 }
 
 .isHalfWidth {
@@ -106,6 +113,18 @@
   margin: 10px auto 0 0
 }
 
+.aboutTextPart h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.aboutTextPart p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+
 .line {
   padding: 0 0 20px 20px;
   margin-top: -2px;
@@ -118,6 +137,25 @@
 .contactSection {
   align-items: center;
   justify-content: space-around;
+}
+
+.resumeSchool h4 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.resumeSchool h3 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.resumeSchool p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
 }
 
 .contactSection img {
@@ -218,6 +256,15 @@ textarea {
   height: 18.21px;
 }
 
+.contact-image .message {
+  width: 40px;
+  height: 40px;
+  left: 863px;
+  top: 2694.64px;
+  border-radius: 10px;
+  /* transform: rotate(-36.26deg); */
+}
+
 .portfolio {
   display: flex;
   justify-content: center;
@@ -268,6 +315,32 @@ textarea {
   width: 100%;
 }
 
+.bottomMail {
+  transform: rotate(-6.26deg);
+  left: 31.65%;
+  right: -31.64%;
+  top: 102.29%;
+  bottom: -47.81%;
+  margin-top: -8px;
+}
+
+.topMail {
+  transform: rotate(10.26deg);
+  left: 0.57%;
+  right: -0.57%;
+  top: 59.92%;
+  bottom: -5.44%;
+}
+
+.call,
+.callLogo {
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+
+
 /* media queries */
 @media only screen and (min-width: 700px) {
   .aboutTextPart {
@@ -310,13 +383,6 @@ textarea {
     min-width: 150px;
   }
 
-  /* header {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  } */
-
   .mainNav {
     display: none;
   }
@@ -331,8 +397,13 @@ textarea {
     justify-content: space-between;
   }
 
-  .bars{
+  .bars {
     display: block;
+  }
+
+  .links:is(:active, :focus, :hover) {
+    color: var(--brandColor);
+
   }
 
 }
